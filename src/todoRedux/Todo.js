@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { setInput, setTasks, deleteTask, editTask } from "./slices/todoSlice";
+import { setInput, setTasks, deleteTask, editTask } from "./features/todoSlice";
 import DeleteIcon from '@mui/icons-material/Delete';
 import EditIcon from '@mui/icons-material/Edit';
 
